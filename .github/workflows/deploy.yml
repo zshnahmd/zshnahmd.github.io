@@ -28,7 +28,7 @@ jobs:
       - run: npm run build
         env:
           CI: false
-      # Lets direct links and refreshes on /projects, /interests work.
+      # Lets direct links and refreshes on /projects work.
       - run: cp build/index.html build/404.html
       - uses: actions/upload-pages-artifact@v3
         with:

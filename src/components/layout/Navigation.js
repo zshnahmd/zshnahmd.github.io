@@ -9,7 +9,6 @@ const Navigation = () => {
       <ul className="flex flex-wrap justify-center gap-8">
         <li><NavLink to="/" end className={linkClass}>About</NavLink></li>
         <li><NavLink to="/projects" className={linkClass}>Projects</NavLink></li>
-        <li><NavLink to="/interests" className={linkClass}>Interests</NavLink></li>
       </ul>
     </nav>
   );

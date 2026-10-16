@@ -4,7 +4,6 @@ import Navigation from './components/layout/Navigation';
 import Header from './components/layout/Header';
 import About from './pages/About';
 import Projects from './pages/Projects';
-import Interests from './pages/Interests';
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="/projects/*" element={<Projects />} />
-            <Route path="/interests" element={<Interests />} />
           </Routes>
         </main>
       </div>

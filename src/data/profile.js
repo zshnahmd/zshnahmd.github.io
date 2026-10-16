@@ -3,14 +3,13 @@
 
 export const profile = {
   name: 'Zeshan Ahmed',
-  headline: 'Consultant, Business Systems Analysis @ CIBC Wealth Management Tech | Requirements & Cloud (AWS)',
+  headline: 'Consultant, Business Systems Analysis @ CIBC Wealth Management Tech',
   location: 'Greater Toronto Area, Canada',
   photo: '/assets/zeshan-headshot.png',
   links: [
     { label: 'Email', href: 'mailto:zeshan.ahmed@outlook.com' },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/zeshanahmed' },
     { label: 'GitHub', href: 'https://github.com/zshnahmd' },
-    { label: 'Instagram', href: 'https://www.instagram.com/zshn.ahmd/' },
   ],
   about: [
     "I'm a Business Systems Analyst at CIBC, on the Client Management team in Private Wealth Management Technology. I turn business needs into clear requirements, map processes, and work between stakeholders and delivery teams to get systems built right.",
@@ -143,50 +142,4 @@ export const skills = [
   'Git & GitHub',
   'Jira & Confluence',
   'Figma',
-];
-
-// Interests tab. Each group renders as its own section; empty groups are hidden.
-// Optional fields per item: `image` (cover in public/assets/covers/), `note` (a line on why you like it), `status`
-// ('Read', 'Reading', 'Want to read'), and `link`.
-export const interests = [
-  {
-    title: 'Bookshelf',
-    groups: [
-      {
-        name: 'Personal Development',
-        items: [
-          { title: 'How to Read a Book', by: 'Mortimer J. Adler & Charles Van Doren', image: '/assets/covers/how-to-read-a-book.jpg' },
-          { title: 'Atomic Habits', by: 'James Clear', image: '/assets/covers/atomic-habits.jpg' },
-        ],
-      },
-      {
-        name: 'Faith & Islamic History',
-        items: [
-          { title: 'Muhammad: His Life Based on the Earliest Sources', by: 'Martin Lings', image: '/assets/covers/muhammad-lings.jpg' },
-          { title: 'The History of the Four Caliphs', subtitle: "Itmām al-Wafā fī Sīrat al-Khulafā", by: 'Muhammad al-Khudari Bak al-Bajuri', image: '/assets/covers/four-caliphs.jpg' },
-          { title: 'Islam and the Destiny of Man', by: 'Charles Le Gai Eaton', link: 'https://www.amazon.ca/Islam-Destiny-Charles-Gai-Eaton/dp/088706163X', image: '/assets/covers/islam-destiny-of-man.jpg' },
-        ],
-      },
-      {
-        name: 'History & Political Thought',
-        items: [
-          { title: 'Imagined Communities', by: 'Benedict Anderson', image: '/assets/covers/imagined-communities.jpg' },
-          { title: 'Why Nations Fail', by: 'Daron Acemoglu & James A. Robinson', image: '/assets/covers/why-nations-fail.jpg' },
-        ],
-      },
-    ],
-  },
-  {
-    title: 'Watching',
-    groups: [
-      {
-        name: 'TV Shows',
-        items: [
-          { title: 'Narcos', by: '2015 - 2017', image: '/assets/covers/narcos.jpg' },
-          { title: 'Peaky Blinders', by: '2013 - 2022', image: '/assets/covers/peaky-blinders.jpg' },
-          { title: 'Vikings', by: '2013 - 2020', image: '/assets/covers/vikings.jpg' },
-        ],
-      },
-    ],
-  },
 ];
